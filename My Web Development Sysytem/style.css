@@ -1,0 +1,83 @@
+html, body {
+    font-family: "Montserrat-black";
+    height: 100%;
+    width: 100%;
+}
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+
+#home {
+    background: url(https://media.istockphoto.com/id/1277261662/photo/winding-mountain-road-with-fall-colors.jpg?b=1&s=170667a&w=0&k=20&c=2ehDM7Lotc4DWk4gL2K4kYJgh6i36XIb1VC6KyvLovA=) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700%;
+}
+.padding {
+    padding: 3% 0;
+}
+.padding img {
+    width: 100%;
+}
+
+#fixed {
+    background: url(https://media.istockphoto.com/id/1070588508/photo/hot-cup-of-tea-or-coffee-on-the-wooden-railing-on-the-mountains-background.jpg?b=1&s=170667a&w=0&k=20&c=NHpAikMulhQOykBfC_3qZCCAi3CCgKIb4ktfPindq1c=) no-repeat center center fixed; 
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+} 
+footer {
+    width: 100%;
+    background-color: #23415c;
+    padding: 5% 5% 5% 5%;
+    color: #fff;
+}
+
+.fa:hover {
+    color: #d5d5d5;
+    text-decoration: none;
+}
+.icons {
+    max-width: 200px;
+}
+
+ .fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+ }
+
+ @media (max-width: 768px) {
+    .landing-text h1 {
+        font-size: 300px;
+    }
+    .fa {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icoms {
+        padding-top: 10px;
+        max-width: 100px;
+    }
+
+}
+.navbar {
+    background-color: #23415c;
+    padding: 1% 0;
+    font-size: 1.2em;
+}
+ .navbar-brand {
+    min-height: 35px;
+    padding: 0 15px 5px;
+} 
